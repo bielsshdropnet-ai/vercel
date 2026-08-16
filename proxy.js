@@ -2,7 +2,7 @@ export const config = {
   runtime: "edge",
 };
 
-const VPS_TARGET = "https://ativo.dpnet.online:80";
+const VPS_TARGET = "https://bunny.dpnet.online:443";
 
 export default async function handler(req) {
   const url = new URL(req.url);
